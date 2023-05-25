@@ -1,13 +1,14 @@
 {
 	"compilerOptions": {
-		"target": "es5",
-		"module": "commonjs",
+		"target": "es6",
+		"outDir": "dist",
 		"downlevelIteration": true,
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
+		"moduleResolution": "nodenext",
 		"skipLibCheck": true,
-		"isolatedModules": true,
 		"resolveJsonModule": true,
+		"isolatedModules": true,
 		"lib": ["es2020", "dom"]
 	}
 }

@@ -727,3 +727,10 @@ export class Peer extends EventEmitter<PeerEvents> {
 			.catch((error) => this._abort(PeerErrorType.ServerError, error));
 	}
 }
+
+export class DHD_Peer extends Peer {
+
+    get dhd_id() {
+        return 3;
+    }
+}
